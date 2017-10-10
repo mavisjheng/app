@@ -1,5 +1,6 @@
 {
   "name": "app",
+  "description": "A TypeScript and React project created from create-react-app starter with react-scripts-ts",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
