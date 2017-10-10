@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './Hello.css';
+import './Style.css';
 
 export interface Props {
   name: string;
@@ -29,7 +29,6 @@ function Hello({ name, enthusiasmLevel = 1, onIncrement, onDecrement }: Props) {
 export default Hello;
 
 // helpers
-
 function getExclamationMarks(numChars: number) {
   return Array(numChars + 1).join('!');
 }
