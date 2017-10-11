@@ -4,7 +4,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/redux-logger": "^3.0.4",
     "history": "^4.7.2",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
@@ -29,6 +28,7 @@
     "@types/react-redux": "^5.0.10",
     "@types/react-router": "^4.0.15",
     "@types/react-router-dom": "^4.0.8",
-    "@types/react-router-redux": "^5.0.8"
+    "@types/react-router-redux": "^5.0.8",
+    "@types/redux-logger": "^3.0.4"
   }
 }
