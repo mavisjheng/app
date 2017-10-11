@@ -13,17 +13,16 @@ const handleIncrease = (state: EnthusiasmState) =>
 const handleDecrease = (state: EnthusiasmState) =>
   ({ ...state, enthusiasmLevel: Math.max(1, state.enthusiasmLevel - 1) });
 
-const reducers = {
-  [INCREMENT_ENTHUSIASM]: handleIncrease,
-  [DECREMENT_ENTHUSIASM]: handleDecrease,
-};
-
-const enthusiasm = (state: EnthusiasmState = initialState, action: EnthusiasmAction) => {
-  let nextState = state;
-  if (reducers[action.type] !== undefined) {
-    nextState = reducers[action.type](state);
+const enthusiasm = (state: EnthusiasmState = initialState, action: EnthusiasmAction): EnthusiasmState => {
+  switch (action.type) {
+    case INCREMENT_ENTHUSIASM:
+      return handleIncrease(state);
+    case DECREMENT_ENTHUSIASM:
+      return handleDecrease(state);
+    default:
+      break;
   }
-  return nextState;
+  return state;
 };
 
 export default enthusiasm;
