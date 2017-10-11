@@ -6,8 +6,8 @@ import Hello from './containers/Hello';
 export default (
   <Switch>
     <Route exact={true} path="/" component={App}/>
-    <Route path="/about" component={About}/>
-    <Route path="/hello" component={Hello}/>
-    <Route path="/product" component={Product}/>
+    <Route exact={true} path="/about" component={About}/>
+    <Route exact={true} path="/hello" component={Hello}/>
+    <Route exact={true} path="/product" component={Product}/>
   </Switch>
 );
