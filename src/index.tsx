@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'react-router-redux';
 import { store, history } from './store';
-import { App, Page, LeftSideNav } from './components';
+import { Header, Page, LeftSideNav } from './components';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
@@ -12,7 +12,7 @@ ReactDOM.render(
     {/* ConnectedRouter will use the store from Provider automatically */}
     <ConnectedRouter history={history}>
       <div>
-        <App />
+        <Header />
         <LeftSideNav />
         <Page />
       </div>

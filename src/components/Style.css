@@ -6,6 +6,10 @@
 }
 
 .app {
+  background-color: crimson;
+}
+
+.header {
   background-color: #222;
 }
 

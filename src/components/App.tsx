@@ -6,7 +6,7 @@ class App extends Component<{}, {}> {
   render() {
     return (
       <div className="main app">
-        <h2>Welcome to React / TypeScript / Redux</h2>
+        <h2>HI</h2>
       </div>
     );
   }
