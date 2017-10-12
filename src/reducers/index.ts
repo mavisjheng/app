@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
 import { routerReducer as routing } from 'react-router-redux';
-import enthusiasm from './enthusiasm';
+import enthusiasm from './enthusiasmReducer';
 
 const rootReducer = combineReducers({
   enthusiasm,
-  routing
+  routing,
 });
 
 export default rootReducer;

@@ -2,9 +2,8 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'react-router-redux';
-import { history } from './store/configureStore';
+import { store, history } from './store';
 import { App, Page, LeftSideNav } from './components';
-import store from './store';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
@@ -14,8 +13,8 @@ ReactDOM.render(
     <ConnectedRouter history={history}>
       <div>
         <App />
-        <Page />
         <LeftSideNav />
+        <Page />
       </div>
     </ConnectedRouter>
   </Provider>,

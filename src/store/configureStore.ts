@@ -13,9 +13,7 @@ if (process.env.NODE_ENV === `development`) {
   middlewares.push(createLogger({ collapsed: true }));
 }
 
-export function configureStore() {
-  return createStore(
-    rootReducer,
-    applyMiddleware(...middlewares)
-  );
-}
+export const store = createStore(
+  rootReducer,
+  applyMiddleware(...middlewares)
+);
