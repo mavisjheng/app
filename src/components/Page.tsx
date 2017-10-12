@@ -1,12 +1,17 @@
 import * as React from 'react';
 import { Component } from 'react';
-import Routes from '../routes';
+import { Route } from 'react-router';
+import { App, About, Product } from '../components';
+import Hello from '../containers/Hello';
 
 class Page extends Component<{}, {}> {
     render() {
         return (
           <div className="page">
-            {Routes}
+            <Route exact={true} path="/" component={App}/>
+            <Route path="/about" component={About}/>
+            <Route path="/hello" component={Hello}/>
+            <Route path="/product" component={Product}/>
           </div>
         );
     }
