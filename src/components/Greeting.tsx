@@ -5,7 +5,7 @@ import './style.css';
 class Greeting extends Component<{}, {}> {
   render() {
     return (
-      <div className="main app">
+      <div className="main greeting">
         <h2>HI</h2>
       </div>
     );
