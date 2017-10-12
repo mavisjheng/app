@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Component } from 'react';
 import './style.css';
 
-class App extends Component<{}, {}> {
+class Greeting extends Component<{}, {}> {
   render() {
     return (
       <div className="main app">
@@ -12,4 +12,4 @@ class App extends Component<{}, {}> {
   }
 }
 
-export default App;
+export default Greeting;
