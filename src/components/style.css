@@ -1,0 +1,69 @@
+.main {
+    text-align: center;
+    height: 50px;
+    padding: 20px;
+    color: white;
+}
+  
+.app {
+    background-color: crimson;
+    position: relative;
+    top: -20px;
+    left: 20px;
+    width: 50px;
+}
+  
+.header {
+    background-color: #222;
+}
+  
+.about {
+    background-color: green;
+    position: fixed;
+    bottom: 80px;
+    right: 0;
+    width: 300px;
+}
+  
+.product {
+    background-color: grey;
+}
+  
+.left-side-nav {
+    position: absolute;
+    left: 0;
+    top: 92px;
+    bottom: 0;
+    width: 178px;
+}
+  
+.link {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    min-width: 50px;
+}
+  
+.page {
+    position: absolute;
+    left: 178px;
+    top: 92px;
+    right: 0;
+    bottom: 0;
+}
+  
+.hello {
+    text-align: center;
+    margin: 20px;
+    color: red;
+    font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+.hello button {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 40px;
+    min-width: 50px;
+}
+  
