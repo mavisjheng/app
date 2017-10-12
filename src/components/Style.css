@@ -1,19 +1,20 @@
-.app {
+.main {
   text-align: center;
+  height: 50px;
+  padding: 20px;
+  color: white;
 }
 
-.app-header {
+.app {
   background-color: #222;
-  height: 50px;
-  padding: 20px;
-  color: white;
 }
 
-.about-header {
+.about {
   background-color: green;
-  height: 50px;
-  padding: 20px;
-  color: white;
+}
+
+.product {
+  background-color: grey;
 }
 
 .left-side-nav {
@@ -29,13 +30,6 @@
   margin-right: 5px;
   font-size: 20px;
   min-width: 50px;
-}
-
-.product-header {
-  background-color: grey;
-  height: 50px;
-  padding: 20px;
-  color: rgb(2, 1, 1);
 }
 
 .page {
